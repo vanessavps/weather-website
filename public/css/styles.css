@@ -8,6 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    background-image: url("/img/sunset.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .main-content {
