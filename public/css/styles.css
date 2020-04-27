@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: #ffffff;
     font-family: Arial;
     max-width: 650px;
     margin: 0 auto;
@@ -20,7 +20,7 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: #ffffff;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -34,10 +34,11 @@ header {
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    color: #ffffff
 }
 
 header a {
-    color: #888888;
+    color: #ffffff;
     margin-right: 16px;
     text-decoration: solid;
 }
