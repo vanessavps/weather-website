@@ -1,15 +1,22 @@
 <html>
+
 <head>
     <title>404 Not Found</title>
     <link rel="icon" href="/img/weather.png">
-    <link rel="stylesheet" href="/css/styles.css">    
+    <link rel="stylesheet" href="/css/semantic-ui/semantic.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <div class="main-content"></div>
-        {{>header}}
-        <p>{{errorMessage}}</p>
+    {{>header}}
+
+    <div class="ui section divider"></div>
+
+    <div class="ui center aligned text container">
+        <h1>{{errorMessage}}</h1>
     </div>
-    
+
     {{>footer}}
 </body>
+
 </html>

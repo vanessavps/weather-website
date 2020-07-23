@@ -1,16 +1,24 @@
 <html>
+
 <head>
     <title>About</title>
     <link rel="icon" href="/img/weather.png">
-    <link rel="stylesheet" href="/css/styles.css">    
+    <link rel="stylesheet" href="/css/semantic-ui/semantic.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <div class="main-content">
-        {{>header}}
-        <p>This site was created by Vanessa da Silva. It uses data from mapbox.com and wheaterstack.com!</p>
-        <img class="portrait" src="/img/vanessa.png" />
+    {{>header}}
+
+    <div class="ui section divider"></div>
+
+    <div class="ui text container">
+        <img class="ui left floated small circular image" src="/img/vanessa.png">
+        <p>This site was created by Vanessa da Silva. </p>
+        <p>It uses data from mapbox.com and wheaterstack.com!</p>
     </div>
-    
+
     {{>footer}}
 </body>
+
 </html>

@@ -1,4 +1,17 @@
-body {
+@media (min-height: 320px) {
+    .ui.footer.form-page { /* Increased specificity for SO snippet priority */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+
+header {
+    padding-top: 16px;
+}
+
+
+/*body {
     color: #ffffff;
     font-family: Arial;
     max-width: 650px;
@@ -26,10 +39,6 @@ footer {
     padding: 16px 0;
 }
 
-header {
-    margin-top: 16px;
-    margin-bottom: 48px;
-}
 
 h1 {
     font-size: 64px;
@@ -58,4 +67,4 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
-}
+}*/
