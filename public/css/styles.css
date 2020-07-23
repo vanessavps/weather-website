@@ -1,11 +1,13 @@
-@media (min-height: 320px) {
-    .ui.footer.form-page { /* Increased specificity for SO snippet priority */
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  }
-
 header {
     padding-top: 16px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
 }

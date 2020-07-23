@@ -2,22 +2,25 @@
 
 <head>
     <title>About</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/semantic-ui/semantic.css">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body class="site">
     {{>header}}
 
-    <div class="ui section divider"></div>
+    <div class="site-content">
+        <div class="ui section divider"></div>
 
-    <div class="ui text container">
-        <img class="ui left floated small circular image" src="/img/vanessa.png">
-        <p>This site was created by Vanessa da Silva. </p>
-        <p>It uses data from mapbox.com and wheaterstack.com!</p>
+        <div class="ui text container">
+            <img class="ui left floated small circular image" src="/img/vanessa.png">
+            <p>This site was created by Vanessa da Silva. </p>
+            <p>It uses data from mapbox.com and wheaterstack.com!</p>
+        </div>
     </div>
-
     {{>footer}}
 </body>
 

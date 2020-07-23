@@ -2,20 +2,22 @@
 
 <head>
     <title>404 Not Found</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/semantic-ui/semantic.css">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body class="site">
     {{>header}}
+    <div class="site-content">
+        <div class="ui section divider"></div>
 
-    <div class="ui section divider"></div>
-
-    <div class="ui center aligned text container">
-        <h1>{{errorMessage}}</h1>
+        <div class="ui center aligned text container">
+            <h1>{{errorMessage}}</h1>
+        </div>
     </div>
-
     {{>footer}}
 </body>
 
