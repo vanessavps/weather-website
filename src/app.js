@@ -22,17 +22,11 @@ app.use(express.static(publicDirPath))
 
 
 app.get('', (req, res) => {
-    res.render('index', {
-        title: 'Weather',
-        name: 'Vanessa Pereira da Silva'
-    })
+    res.render('index')
 })
 
 app.get('/about', (req, res) => {
-    res.render('about', {
-        title: 'About',
-        name: 'Vanessa Pereira da Silva'
-    })
+    res.render('about')
 })
 
 app.get('/weather', (req, res) => {
@@ -70,11 +64,7 @@ app.get('/products', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-    res.render('404', {
-        title: '404',
-        name: 'Vanessa Pereira da Silva',
-        errorMessage: 'Page not found'
-    })
+    res.render('404')
 })
 
 app.listen(port, () => {
