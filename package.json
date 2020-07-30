@@ -17,5 +17,12 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanessavps/weather-website"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vanessavps"
   }
 }
