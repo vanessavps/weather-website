@@ -12,3 +12,16 @@
   float: left;
   margin-right: 15px;
 }
+
+.about-me{
+  overflow: auto;
+}
+
+
+.ui.list > .item:after {
+  clear: none;
+}
+
+.item > .content {
+  font-size: 18px;
+}
