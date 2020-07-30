@@ -7,3 +7,8 @@
 .site-content {
   flex: 1;
 }
+
+.ui[class*="left floated"].card {
+  float: left;
+  margin-right: 15px;
+}
